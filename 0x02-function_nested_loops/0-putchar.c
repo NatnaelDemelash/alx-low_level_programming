@@ -1,5 +1,4 @@
-#include <unistd.h>
-#include <stdio.h>
+#include "main.h"
 /**
  * main - main block
  * Description: Print _putchar.
@@ -7,10 +6,14 @@
  */
 int main(void)
 {
-	char c[10] = "_putchr";
+	char c[9] = "_putchr";
+	int i = 0;
 
-	putchar(c);
-	putchar('\n');
-
+	while (i < 9)
+	{
+		_putchar(c[i]);
+		i++;
+	}
+	_putchar('\n');
 	return (0);
 }
