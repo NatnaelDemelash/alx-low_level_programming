@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
  * print_alphabet_x10 - print alphabet
  *
@@ -24,10 +24,4 @@ for (alphabet = 'a' ; alphabet <= 'z'; alphabet++)
 }
 
 
-}
-
-int main(void)
-{
-	print_alphabet_x10();
-	return (0);
 }
