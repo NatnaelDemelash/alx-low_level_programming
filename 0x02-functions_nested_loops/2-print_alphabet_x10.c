@@ -29,6 +29,6 @@ for (alphabet = 'a' ; alphabet <= 'z'; alphabet++)
 
 int main(void)
 {
-	print_alphabet_x10();
+	print_alphabet_x10(void);
 	return (0);
 }
